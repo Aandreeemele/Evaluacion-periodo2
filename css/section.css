@@ -1,7 +1,4 @@
-section{
-    width: auto;
-    height: 12rem;
-    border: 1px solid black;
+.a0{
 
     display: grid;
     grid-template-columns:  repeat(21, 1.1rem);

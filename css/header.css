@@ -1,8 +1,4 @@
-header{
-    width: 375px;
-    height: 4rem;
-    border: 1px solid black;
-}
+
 header p{
     position: relative;
     left: 0.5rem;

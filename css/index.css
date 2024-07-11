@@ -1,6 +1,33 @@
 body{
     width: 375px;
-    height: 45rem;
-    
+    height: auto;
     margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(8, 2.9em) ;
+    grid-template-rows: repeat(16, 1.3rem);
+}
+.header{
+    width: auto;
+    height: 4rem;
+    border: 1px solid black;
+    grid-column: 1/9;
+    grid-row: 1/4;
+    
+}
+.section{
+    width: auto;
+    height: 12rem;
+    border: 1px solid black;
+    gap: 1rem;
+    grid-column: 1/9;
+    grid-row: 5/8;
+}
+.footer{
+    width: auto;
+    height: 2rem;
+    border: 1px solid black;
+    gap: 1rem;
+    grid-column: 1/9;
+    grid-row: 15/16;
 }
